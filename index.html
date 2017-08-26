@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Secret Agent Supply Inc.</title>
-  <link type ="text/css" rel="stylesheet" href="C:\Projects\MasterCoder\SecretAgentSupply\resources\css\style.css">
-  <link type="text/css" rel="stylesheet" href="C:\Projects\MasterCoder\SecretAgentSupply\resources\css\reset.css">
+    <link type ="text/css" rel="stylesheet" href="C:\Projects\MasterCoder\SecretAgentSupply\resources\css\style.css">
+    <link type="text/css" rel="stylesheet" href="C:\Projects\MasterCoder\SecretAgentSupply\resources\css\reset.css">
   </head>
   <body>
 <!--Header Section-->
@@ -13,7 +13,7 @@
       <div class="company">
         <div class="container">
           <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/logo.png">
-          <h2>Secret Agent Supply</h2>
+          <span>Secret Agent Supply</span>
         </div>
       </div>
     </header>
@@ -27,9 +27,9 @@
       </div>
     </div>
 <!--Navigation Bar-->
-      <div class="navigation">
-      <nav class="container">
-        <ul>
+    <!--<div class="navigation">-->
+      <nav class="navigation">
+        <ul class="container">
           <li>Eyewear</li>
           <li>Apparel</li>
           <li>Gadgets</li>
@@ -37,33 +37,48 @@
           <li>Classes</li>
           <li>Contact</li>
         </ul>
+        <ul class="mobile-nav">
+          <li>Menu</li>
+        </ul>
       </nav>
-    </div>
+    <!--</div>-->
 <!--Main Section & Images-->
-      <div class="main">
-      <div class="container">
+    <!--<div class="main">-->
+    <div class="container">
         <div class="images">
-          <div class="box">
-            <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png">
-            <span id="pic-text"><p>Exploding Pen</p></span>
+          <div class="product">
+            <div class="product-image">
+              <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/pen.png">
+            </div>
+            <span id="pic-text">Exploding Pen</span>
           </div>
-          <div class="box">
-            <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png">
-            <span id="pic-text"><p>Cellular Watch</p></span>
+          <div class="product">
+            <div class="product-image">
+              <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/watch.png">
+            </div>
+            <span id="pic-text">Cellular Watch</span>
           </div>
-          <div class="box">
-            <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png">
-            <span id="pic-text"><p>Thermal Glasses</p></span>
+          <div class="product" "glasses">
+            <div class="product-image">
+              <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/secret-agent-supply/resources/images/glasses.png">
+            </div>
+            <span id="pic-text">Thermal Glasses</span>
           </div>
         </div>
-        <div class="details">
-          <span><p>Location</p></span>
-          <p>-47.346436. 84.32354</p>
-          <p>0800 - 1800</p>
-          <span><p>Hours</p></span>
+        <div class="container">
+          <div class="details">
+            <div class="info">
+              <span class="title">Location</span>
+              <p>-47.346436. 84.32354</p>
+            </div>
+            <div class="info">
+              <span class="title">Hours</span>
+              <p>0800 - 1800</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+
 <!--Footer-->
     <footer>
       <div class="container">
