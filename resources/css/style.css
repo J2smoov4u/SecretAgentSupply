@@ -200,15 +200,13 @@ footer p {
       background-color: white;
     }
     .headline {
-      /*display: block;*/
       width: inherit;
-      /*font-family: Helvetica;
-      font-size: 0.77rem;*/
-      border-radius: 0px;
-      padding: 1em 2em;
-      top: 10em;
-      position: relative;
-      margin: auto;
+      height: auto;
+      margin: 0px;
+      padding: 10px;
+      border-radius: 0;
+      position: absolute;
+
     }
     .main-banner {
       height: 15rem;
@@ -218,5 +216,25 @@ footer p {
     }
     .headline h1 {
       font-size: 1rem;
+    }
+    .company span {
+      display: none;
+    }
+    .company {
+      display: flex;
+    }
+    .container .details {
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .details .info {
+      width: 90%;
+      margin: auto;
+    }
+    .info p {
+      text-align: center;
+      margin: 10px;
     }
 }
